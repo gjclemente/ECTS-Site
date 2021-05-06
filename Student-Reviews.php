@@ -48,7 +48,7 @@
                         //alert('Data: '+data);
 
                         for (let i=0; i < data["results"].length; i++){
-                            $insert = $('<div class="col-md-6 reviewText"><figure class="quote"><blockquote>' + data["results"][i]["review_text"] + '</blockquote><figcaption>&mdash; ' + data["results"][i]["student_name"] + ', <cite class="nunitoLight>ECTS CMP Student Class of ' + data["results"][i]["student_year"] + '</cite></figcaption></figure></div>');
+                            $insert = $('<div class="col-md-6 reviewText"><figure class="quote"><blockquote>' + data["results"][i]["review_text"] + '</blockquote><figcaption  class="nunitoLight">&mdash; ' + data["results"][i]["student_name"] + ', <cite>ECTS CMP Student Class of ' + data["results"][i]["student_year"] + '</cite></figcaption></figure></div>');
                             $("#reviews").append($insert);
                         }
                         
