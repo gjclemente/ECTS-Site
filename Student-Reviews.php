@@ -30,7 +30,7 @@
                 <p class="nunitoReg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
 
-            <div class="row nunitoReg" id="reviews">
+            <div class="row nunitoLight" id="reviews">
                 
             </div>
         </div>
@@ -48,7 +48,7 @@
                         //alert('Data: '+data);
 
                         for (let i=0; i < data["results"].length; i++){
-                            $insert = $('<div class="col-md-6 reviewText"><figure class="quote"><blockquote>' + data["results"][i]["review_text"] + '</blockquote><figcaption class="nunitoExtraLight">&mdash; ' + data["results"][i]["student_name"] + ', <cite>ECTS CMP Student Class of ' + data["results"][i]["student_year"] + '</cite></figcaption></figure></div>');
+                            $insert = $('<div class="col-md-6 reviewText"><figure class="quote"><blockquote>' + data["results"][i]["review_text"] + '</blockquote><figcaption>&mdash; ' + data["results"][i]["student_name"] + ', <cite>ECTS CMP Student Class of ' + data["results"][i]["student_year"] + '</cite></figcaption></figure></div>');
                             $("#reviews").append($insert);
                         }
                         
