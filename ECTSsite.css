@@ -1,0 +1,165 @@
+﻿@font-face {
+    font-family: nunitoReg;
+    src: url(Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunitoXL;
+    src: url(Nunito-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: nunitoLight;
+    src: url(Nunito-Light.ttf);
+}
+
+@font-face {
+    font-family: nunitoBold;
+    src: url(Nunito-Bold.ttf);
+}
+
+body {
+    min-height: 2000px;
+    min-width: 400px;
+    background: #596F62;
+    padding-top: 55px;
+}
+
+.carousel-item img {
+}
+
+#welcome {
+    text-align: center;
+}
+
+    #welcome h1 {
+        width: 100%;
+        /*background: #9A998C;*/
+        border-radius: 15px;
+        color: white;
+    }
+
+
+@media (max-width: 500px) {
+    #carouselExampleIndicators {
+        display: none;
+    }
+}
+
+p {
+    text-align: left;
+}
+
+.lvlimg {
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.row {
+    padding: 30px;
+    box-shadow: 50px;
+
+}
+
+.row .col-md-8 {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nunitoRegular {
+    font-family: nunitoReg;
+}
+
+.nunitoExtraLight {
+    font-family: nunitoXL;
+}
+
+.nunitoLight {
+    font-family: nunitoLight;
+}
+
+.navbar {
+    background-color: #1C3144;
+    color: #7EA16B;
+    font-family: nunitoReg;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://i0.wp.com/embetronicx.com/wp-content/uploads/2017/08/background.jpg?fit=1920%2C1080&ssl=1");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1500px;
+    }
+}
+
+.centered{
+    text-align: center;
+    align-content: center;
+
+}
+
+#pdfImage{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+}
+
+.container .row {
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#enrollImage {
+    width: 250px;
+    height: 250px;
+    align-content: center;
+}
+
+#enrollInfo{
+    border-radius: 10px;
+}
+
+.quote {
+    margin: 0;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.quote figcaption,
+.quote blockquote {
+    margin: 1em;
+    padding-bottom: 20px;
+}
+
+#quotes {
+    border-radius: 10px;
+}
+
+.squareimg{
+    width: 150px;
+    height: 150px;
+}
+
+#nameCompHeader {
+    font-family: nunitoBold;
+    padding-top: 15px;
+}
+
+.reviewText{
+    padding-bottom: 30px;
+}
