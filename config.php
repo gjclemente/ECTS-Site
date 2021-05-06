@@ -1,8 +1,8 @@
 ﻿    <?php
-        $DB_SERVER = 'jklins-1.cret6wgx6skt.us-east-2.rds.amazonaws.com';
-        $DB_NAME   = 'GaClemente';
-        $DB_USERNAME = 'GaClemente';
-        $DB_PASSWORD = 'Ects0909';
+        $DB_SERVER = '';
+        $DB_NAME   = '';
+        $DB_USERNAME = '';
+        $DB_PASSWORD = '';
         $charset = 'utf8mb4';
 
 
