@@ -2,6 +2,7 @@
 ## Setup
 **In the config.php file, add your database credentials in the fields with empty quotes**
 * After downloading repo, add the folder to .htdocs folder within the XAMPP folder stored on your C: Drive
+* Run .SQL scripts to first create and then populate tables in MySQL Database. Run the create script first, then the populate script after.
 ## File Information
 * .inc files are for code headers that want to be repeated on different pages. This would include the slideshow banner, the navbar, and the link sources.
 * The include.inc contains all the CSS and script links needed to run the pages. Be sure to keep this php code include in each web file.
